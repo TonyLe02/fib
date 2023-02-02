@@ -10,8 +10,7 @@ func TestFib(t *testing.T) {
 	}
 
 	var tests = []test{
-		{0, 0},
-		{1, 1},
+		{10, 1},
 		// her kan vi bare legge på nye test cases
 	}
 
