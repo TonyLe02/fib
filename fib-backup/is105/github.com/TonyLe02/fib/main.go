@@ -1,7 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/TonyLe02/fib/fib"
+)
 
 func main() {
-	fmt.Println("Fantastiske Fibonacci!")
+	var input int
+	fmt.Println("Sett inn tall:")
+	fmt.Scan(&input)
+	fmt.Println(fib.Fib(input))
 }
